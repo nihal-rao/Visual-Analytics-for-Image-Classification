@@ -1,5 +1,5 @@
 # Visual-Analytics-for-Image-Classification
-An interactive tool for interpreting and analysing image classification models using treemaps and heirarchical clustering, inspired by the [Dendromap](https://arxiv.org/abs/2205.06935) paper.
+An interactive tool for interpreting and analysing image classification models using treemaps and hierarchical clustering, inspired by the [Dendromap](https://arxiv.org/abs/2205.06935) paper.
 
 ## Overview:
 * Modern deep learning models for image classification are trained on large scale datasets, with the number of images often in the order of thousands.
@@ -10,8 +10,8 @@ An interactive tool for interpreting and analysing image classification models u
 
 ## Implementation:
 * A pretrained Resnet model's final classification layer embeddings are used as features for the images in the dataset.
-* Heirarchical clustering with ward linkage is used to obtain a tree structure ([dendrogram](https://en.wikipedia.org/wiki/Dendrogram)) of similar images, which can be recursively split up into further clusters of similar images.
-* The tree structure is displayed using [treemaps](https://en.wikipedia.org/wiki/Treemapping), a visualisation technique for interactively displaying heirarchical data at varying levels of granularity.
+* Hierarchical clustering with ward linkage is used to obtain a tree structure ([dendrogram](https://en.wikipedia.org/wiki/Dendrogram)) of similar images, which can be recursively split up into further clusters of similar images.
+* The tree structure is displayed using [treemaps](https://en.wikipedia.org/wiki/Treemapping), a visualisation technique for interactively displaying structured data at varying levels of granularity.
   
 ![](/figs/cluster-overview.png)
 
