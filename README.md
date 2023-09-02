@@ -1,5 +1,5 @@
 # Visual-Analytics-for-Image-Classification
-An interactive tool for interpreting and analysing image classification models using treemaps and hierarchical clustering, inspired by the [Dendromap](https://arxiv.org/abs/2205.06935) paper.
+An interactive tool for interpreting and analysing image classification models using treemaps and hierarchical clustering, inspired by the [Dendromap](https://arxiv.org/abs/2205.06935) paper. Uses the Caltech 256 dataset, consisting of 30607 images across 256 categories.
 
 ## Overview:
 * Modern deep learning models for image classification are trained on large scale datasets, with the number of images often in the order of thousands.
